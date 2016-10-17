@@ -6,7 +6,7 @@ only. Have fun using them in your application as well :)
 
 All passwords - for the CA and for the client - are 'password'.
 
-Here are some ressources on how to generate them:
+Here are some resources on how to generate them:
 https://manmoahn-openssl-net.blogspot.com/2011/07/creating-serverclient-certificate-pair.html
 https://gist.github.com/mtigas/952344
 http://theheat.dk/blog/?p=1023
