@@ -18,7 +18,6 @@ var handler = function(req, res) {
 		return;
 	}
 
-	console.log(req.connection.getPeerCertificate());
 	console.log(req.method + ": " + req.url + " from " + req.connection.getPeerCertificate().subject.CN);
 
 	switch(req.method) {
