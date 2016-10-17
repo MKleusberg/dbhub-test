@@ -1,0 +1,12 @@
+Hah, you might think! Got their secret crypto just by doing a simple search
+on Github, Google, or whatever! But don't start celebrating just yet. There
+is nothing interesting to see here. These certificates and keys are not used
+in any publicly available application. They are for local testing purposes
+only. Have fun using them in your application as well :)
+
+All passwords - for the CA and for the client - are 'password'.
+
+Here are some ressources on how to generate them:
+https://manmoahn-openssl-net.blogspot.com/2011/07/creating-serverclient-certificate-pair.html
+https://gist.github.com/mtigas/952344
+http://theheat.dk/blog/?p=1023
