@@ -6,7 +6,7 @@ const path = require("path");
 
 const ssl_options = {
 	key: fs.readFileSync("../ssl/server.key"),
-	cert: fs.readFileSync("../ssl/server.pem"),
+	cert: fs.readFileSync("../ssl/server.crt"),
 	ca: fs.readFileSync("../ssl/ca.crt"),
 	requestCert: true
 };
@@ -46,4 +46,4 @@ var handler = function(req, res) {
 var server = https.createServer(ssl_options);
 server.addListener("request", handler);
 server.listen(4444);
-console.log("Listening on https://127.0.0.1:4444 ...");
+console.log("Listening OK.  URL to test → https://localhost:4444/test/test1");
