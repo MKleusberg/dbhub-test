@@ -6,7 +6,9 @@ only. Have fun using them in your application as well :)
 
 All passwords - for the CA and for the client - are 'password'.
 
-Here are some resources on how to generate them:
-https://manmoahn-openssl-net.blogspot.com/2011/07/creating-serverclient-certificate-pair.html
-https://gist.github.com/mtigas/952344
-http://theheat.dk/blog/?p=1023
+They have been generated using the in-depth guide here, with one change:
+
+* https://jamielinux.com/docs/openssl-certificate-authority/
+
+The client key (client.key) used by DB4S was generated using DES3 (-des3)
+instead of AES256 (-aes256), because the Qt layer complained otherwise. ;)

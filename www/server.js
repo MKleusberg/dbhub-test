@@ -6,7 +6,7 @@ const path = require("path");
 
 const ssl_options = {
 	key: fs.readFileSync("../ssl/server.key"),
-	cert: fs.readFileSync("../ssl/server.pem"),
+	cert: fs.readFileSync("../ssl/server.crt"),
 	ca: fs.readFileSync("../ssl/ca.crt"),
 	requestCert: true
 };
